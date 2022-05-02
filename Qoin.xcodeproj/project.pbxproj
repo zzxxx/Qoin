@@ -1,0 +1,571 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE56FD9C281A8A750097E777 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE56FD9B281A8A750097E777 /* AppDelegate.swift */; };
+		CE56FD9E281A8A750097E777 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE56FD9D281A8A750097E777 /* SceneDelegate.swift */; };
+		CE56FDA0281A8A750097E777 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE56FD9F281A8A750097E777 /* ViewController.swift */; };
+		CE56FDA3281A8A750097E777 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE56FDA1281A8A750097E777 /* Main.storyboard */; };
+		CE56FDA5281A8A760097E777 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE56FDA4281A8A760097E777 /* Assets.xcassets */; };
+		CE56FDA8281A8A760097E777 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE56FDA6281A8A760097E777 /* LaunchScreen.storyboard */; };
+		CE56FDB4281A8CA70097E777 /* QTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE56FDB3281A8CA70097E777 /* QTabBarController.swift */; };
+		CE56FDB6281A8EF90097E777 /* QDashboardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE56FDB5281A8EF90097E777 /* QDashboardVC.swift */; };
+		CE56FDB8281A8F0D0097E777 /* QTransactionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE56FDB7281A8F0D0097E777 /* QTransactionVC.swift */; };
+		CE56FDBD281A9C480097E777 /* QRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE56FDBC281A9C480097E777 /* QRouter.swift */; };
+		CE56FDBF281ACA200097E777 /* QTransaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE56FDBE281ACA200097E777 /* QTransaction.swift */; };
+		CE56FDC1281ACE790097E777 /* QCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE56FDC0281ACE790097E777 /* QCategory.swift */; };
+		CE56FDC3281AD1DF0097E777 /* QAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE56FDC2281AD1DF0097E777 /* QAccount.swift */; };
+		CE56FDC5281AD3400097E777 /* QDashboardPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE56FDC4281AD3400097E777 /* QDashboardPresenter.swift */; };
+		CE56FDC7281AD5570097E777 /* QDashboardBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE56FDC6281AD5570097E777 /* QDashboardBuilder.swift */; };
+		CE56FDC9281B33B80097E777 /* QStash.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE56FDC8281B33B80097E777 /* QStash.swift */; };
+		CE56FDCB281B36B20097E777 /* QDBService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE56FDCA281B36B20097E777 /* QDBService.swift */; };
+		CE755C57281BBEB1003D435E /* Date+Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE755C56281BBEB1003D435E /* Date+Random.swift */; };
+		CE755C59281BD9BF003D435E /* QTransactionPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE755C58281BD9BF003D435E /* QTransactionPresenter.swift */; };
+		CE755C5B281BDD44003D435E /* QTransactionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE755C5A281BDD44003D435E /* QTransactionCell.swift */; };
+		CE755C5D281BE4DA003D435E /* QTransactionBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE755C5C281BE4DA003D435E /* QTransactionBuilder.swift */; };
+		CE755C60281E9A5B003D435E /* QTransactionAmmountCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE755C5F281E9A5B003D435E /* QTransactionAmmountCell.swift */; };
+		F0F1F0BF107A454A9ADD0FA7 /* Pods_Qoin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B8B7ED7D11AD57E3D348C58 /* Pods_Qoin.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		080854933954A7FF5F6710EE /* Pods-Qoin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Qoin.release.xcconfig"; path = "Target Support Files/Pods-Qoin/Pods-Qoin.release.xcconfig"; sourceTree = "<group>"; };
+		6B8B7ED7D11AD57E3D348C58 /* Pods_Qoin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Qoin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE56FD98281A8A750097E777 /* Qoin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Qoin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE56FD9B281A8A750097E777 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CE56FD9D281A8A750097E777 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CE56FD9F281A8A750097E777 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CE56FDA2281A8A750097E777 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CE56FDA4281A8A760097E777 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE56FDA7281A8A760097E777 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CE56FDA9281A8A760097E777 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE56FDB3281A8CA70097E777 /* QTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QTabBarController.swift; sourceTree = "<group>"; };
+		CE56FDB5281A8EF90097E777 /* QDashboardVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QDashboardVC.swift; sourceTree = "<group>"; };
+		CE56FDB7281A8F0D0097E777 /* QTransactionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QTransactionVC.swift; sourceTree = "<group>"; };
+		CE56FDBC281A9C480097E777 /* QRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRouter.swift; sourceTree = "<group>"; };
+		CE56FDBE281ACA200097E777 /* QTransaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QTransaction.swift; sourceTree = "<group>"; };
+		CE56FDC0281ACE790097E777 /* QCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QCategory.swift; sourceTree = "<group>"; };
+		CE56FDC2281AD1DF0097E777 /* QAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QAccount.swift; sourceTree = "<group>"; };
+		CE56FDC4281AD3400097E777 /* QDashboardPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QDashboardPresenter.swift; sourceTree = "<group>"; };
+		CE56FDC6281AD5570097E777 /* QDashboardBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QDashboardBuilder.swift; sourceTree = "<group>"; };
+		CE56FDC8281B33B80097E777 /* QStash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QStash.swift; sourceTree = "<group>"; };
+		CE56FDCA281B36B20097E777 /* QDBService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QDBService.swift; sourceTree = "<group>"; };
+		CE755C56281BBEB1003D435E /* Date+Random.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Random.swift"; sourceTree = "<group>"; };
+		CE755C58281BD9BF003D435E /* QTransactionPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QTransactionPresenter.swift; sourceTree = "<group>"; };
+		CE755C5A281BDD44003D435E /* QTransactionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QTransactionCell.swift; sourceTree = "<group>"; };
+		CE755C5C281BE4DA003D435E /* QTransactionBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QTransactionBuilder.swift; sourceTree = "<group>"; };
+		CE755C5F281E9A5B003D435E /* QTransactionAmmountCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QTransactionAmmountCell.swift; sourceTree = "<group>"; };
+		D13BBCA8E2698038F550B5D6 /* Pods-Qoin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Qoin.debug.xcconfig"; path = "Target Support Files/Pods-Qoin/Pods-Qoin.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE56FD95281A8A750097E777 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0F1F0BF107A454A9ADD0FA7 /* Pods_Qoin.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		44EC47DDD7AC59AEF6461BB0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D13BBCA8E2698038F550B5D6 /* Pods-Qoin.debug.xcconfig */,
+				080854933954A7FF5F6710EE /* Pods-Qoin.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CE56FD8F281A8A750097E777 = {
+			isa = PBXGroup;
+			children = (
+				CE56FD9A281A8A750097E777 /* Qoin */,
+				CE56FD99281A8A750097E777 /* Products */,
+				44EC47DDD7AC59AEF6461BB0 /* Pods */,
+				D3EDC294B60344AF936D55E5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CE56FD99281A8A750097E777 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE56FD98281A8A750097E777 /* Qoin.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE56FD9A281A8A750097E777 /* Qoin */ = {
+			isa = PBXGroup;
+			children = (
+				CE755C55281BBEA1003D435E /* Extensions */,
+				CE56FDB1281A8AA30097E777 /* Busines */,
+				CE56FDB0281A8A9B0097E777 /* Model */,
+				CE56FDAF281A8A8F0097E777 /* Controllers */,
+				CE56FDB2281A8AAF0097E777 /* System */,
+				CE56FDA9281A8A760097E777 /* Info.plist */,
+			);
+			path = Qoin;
+			sourceTree = "<group>";
+		};
+		CE56FDAF281A8A8F0097E777 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CE56FDB9281A9C0D0097E777 /* TabBar */,
+				CE56FDBA281A9C1E0097E777 /* DashBoard */,
+				CE56FDBB281A9C260097E777 /* Transaction */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		CE56FDB0281A8A9B0097E777 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CE56FDCA281B36B20097E777 /* QDBService.swift */,
+				CE56FDC2281AD1DF0097E777 /* QAccount.swift */,
+				CE56FDBE281ACA200097E777 /* QTransaction.swift */,
+				CE56FDC0281ACE790097E777 /* QCategory.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CE56FDB1281A8AA30097E777 /* Busines */ = {
+			isa = PBXGroup;
+			children = (
+				CE56FDBC281A9C480097E777 /* QRouter.swift */,
+				CE56FDC8281B33B80097E777 /* QStash.swift */,
+			);
+			path = Busines;
+			sourceTree = "<group>";
+		};
+		CE56FDB2281A8AAF0097E777 /* System */ = {
+			isa = PBXGroup;
+			children = (
+				CE56FD9B281A8A750097E777 /* AppDelegate.swift */,
+				CE56FD9D281A8A750097E777 /* SceneDelegate.swift */,
+				CE56FD9F281A8A750097E777 /* ViewController.swift */,
+				CE56FDA1281A8A750097E777 /* Main.storyboard */,
+				CE56FDA4281A8A760097E777 /* Assets.xcassets */,
+				CE56FDA6281A8A760097E777 /* LaunchScreen.storyboard */,
+			);
+			path = System;
+			sourceTree = "<group>";
+		};
+		CE56FDB9281A9C0D0097E777 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				CE56FDB3281A8CA70097E777 /* QTabBarController.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		CE56FDBA281A9C1E0097E777 /* DashBoard */ = {
+			isa = PBXGroup;
+			children = (
+				CE56FDC6281AD5570097E777 /* QDashboardBuilder.swift */,
+				CE56FDB5281A8EF90097E777 /* QDashboardVC.swift */,
+				CE56FDC4281AD3400097E777 /* QDashboardPresenter.swift */,
+			);
+			path = DashBoard;
+			sourceTree = "<group>";
+		};
+		CE56FDBB281A9C260097E777 /* Transaction */ = {
+			isa = PBXGroup;
+			children = (
+				CE56FDB7281A8F0D0097E777 /* QTransactionVC.swift */,
+				CE755C58281BD9BF003D435E /* QTransactionPresenter.swift */,
+				CE755C5C281BE4DA003D435E /* QTransactionBuilder.swift */,
+				CE755C5E281E9A35003D435E /* Resources */,
+			);
+			path = Transaction;
+			sourceTree = "<group>";
+		};
+		CE755C55281BBEA1003D435E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				CE755C56281BBEB1003D435E /* Date+Random.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		CE755C5E281E9A35003D435E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CE755C5A281BDD44003D435E /* QTransactionCell.swift */,
+				CE755C5F281E9A5B003D435E /* QTransactionAmmountCell.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D3EDC294B60344AF936D55E5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6B8B7ED7D11AD57E3D348C58 /* Pods_Qoin.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE56FD97281A8A750097E777 /* Qoin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE56FDAC281A8A760097E777 /* Build configuration list for PBXNativeTarget "Qoin" */;
+			buildPhases = (
+				783CC1A6C91B4C76C531DDEE /* [CP] Check Pods Manifest.lock */,
+				CE56FD94281A8A750097E777 /* Sources */,
+				CE56FD95281A8A750097E777 /* Frameworks */,
+				CE56FD96281A8A750097E777 /* Resources */,
+				DFCC63EB23E30329BEB4F2B6 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Qoin;
+			productName = Qoin;
+			productReference = CE56FD98281A8A750097E777 /* Qoin.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE56FD90281A8A750097E777 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					CE56FD97281A8A750097E777 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = CE56FD93281A8A750097E777 /* Build configuration list for PBXProject "Qoin" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE56FD8F281A8A750097E777;
+			productRefGroup = CE56FD99281A8A750097E777 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE56FD97281A8A750097E777 /* Qoin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE56FD96281A8A750097E777 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE56FDA8281A8A760097E777 /* LaunchScreen.storyboard in Resources */,
+				CE56FDA5281A8A760097E777 /* Assets.xcassets in Resources */,
+				CE56FDA3281A8A750097E777 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		783CC1A6C91B4C76C531DDEE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Qoin-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DFCC63EB23E30329BEB4F2B6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Qoin/Pods-Qoin-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Qoin/Pods-Qoin-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Qoin/Pods-Qoin-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE56FD94281A8A750097E777 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE755C57281BBEB1003D435E /* Date+Random.swift in Sources */,
+				CE56FDC1281ACE790097E777 /* QCategory.swift in Sources */,
+				CE56FDCB281B36B20097E777 /* QDBService.swift in Sources */,
+				CE755C5B281BDD44003D435E /* QTransactionCell.swift in Sources */,
+				CE56FDA0281A8A750097E777 /* ViewController.swift in Sources */,
+				CE56FD9C281A8A750097E777 /* AppDelegate.swift in Sources */,
+				CE755C59281BD9BF003D435E /* QTransactionPresenter.swift in Sources */,
+				CE56FD9E281A8A750097E777 /* SceneDelegate.swift in Sources */,
+				CE56FDB4281A8CA70097E777 /* QTabBarController.swift in Sources */,
+				CE56FDC3281AD1DF0097E777 /* QAccount.swift in Sources */,
+				CE56FDC7281AD5570097E777 /* QDashboardBuilder.swift in Sources */,
+				CE56FDC5281AD3400097E777 /* QDashboardPresenter.swift in Sources */,
+				CE56FDC9281B33B80097E777 /* QStash.swift in Sources */,
+				CE755C60281E9A5B003D435E /* QTransactionAmmountCell.swift in Sources */,
+				CE56FDBF281ACA200097E777 /* QTransaction.swift in Sources */,
+				CE755C5D281BE4DA003D435E /* QTransactionBuilder.swift in Sources */,
+				CE56FDBD281A9C480097E777 /* QRouter.swift in Sources */,
+				CE56FDB6281A8EF90097E777 /* QDashboardVC.swift in Sources */,
+				CE56FDB8281A8F0D0097E777 /* QTransactionVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CE56FDA1281A8A750097E777 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE56FDA2281A8A750097E777 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CE56FDA6281A8A760097E777 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE56FDA7281A8A760097E777 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE56FDAA281A8A760097E777 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CE56FDAB281A8A760097E777 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE56FDAD281A8A760097E777 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D13BBCA8E2698038F550B5D6 /* Pods-Qoin.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Qoin/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sms.Qoin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		CE56FDAE281A8A760097E777 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 080854933954A7FF5F6710EE /* Pods-Qoin.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Qoin/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sms.Qoin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE56FD93281A8A750097E777 /* Build configuration list for PBXProject "Qoin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE56FDAA281A8A760097E777 /* Debug */,
+				CE56FDAB281A8A760097E777 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE56FDAC281A8A760097E777 /* Build configuration list for PBXNativeTarget "Qoin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE56FDAD281A8A760097E777 /* Debug */,
+				CE56FDAE281A8A760097E777 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE56FD90281A8A750097E777 /* Project object */;
+}
